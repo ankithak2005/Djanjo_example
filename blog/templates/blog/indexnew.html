@@ -1,0 +1,17 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mouse Handling Demo</title>
+  <link rel="stylesheet" href="{% static 'blog/style.css' %}">
+</head>
+<body>
+  <h1>Mouse Interaction Demo in index page</h1>
+  <div class="mouse-box" id="mouseBox"></div>
+  <div class="instructions">Move your mouse, click anywhere, and drag around.</div>
+
+  <script src="{% static 'blog/script.js' %}"></script>
+</body>
+</html>
